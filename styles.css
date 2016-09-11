@@ -1,0 +1,132 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add! */
+
+* {
+/*	border: 2px solid black; */
+	font-family: "Arial"
+	}  
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin:0px;
+}
+
+header {
+  background-color: #1146b0;
+  padding: 5px 20px 5px 20px;
+  font-size: 30px;
+  display: block;
+
+}
+
+h1 {
+	color:white;
+}
+
+nav {
+  background-color: #527c8e;
+  width:100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  width: 100%;
+    display:flex;
+  justify-content: center;
+}
+
+nav li {
+display:inline-block;
+  padding: 20px;
+  margin: 0px;
+  width: 33.3%;
+  border: 2px solid white;
+  text-align: center;
+}
+
+nav li a {
+  color: white;
+  font-size: 20px;  
+  height: 25px;
+  padding: 5px 15px 5px 15px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+	color: #1146b0;
+}
+
+.main-image-container {
+	display: flex;
+	justify-content: center
+}
+
+.caption {
+	color:pink;
+}
+
+article {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+table {
+	margin-left: 50px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	background: #527c8e;
+}
+
+th, td {
+	height: 30px;
+	width: 175px;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  padding-bottom: 100px;
+}
+
+aside {
+  width: 17%;
+  display: inline-block;
+  background-color:blue;
+  padding:1px;
+  min-height: 100%;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #1146b0;
+  color: white;
+  clear: both;
+  display: block;
+  padding: 10px;
+  padding-left: 40px;
+}
